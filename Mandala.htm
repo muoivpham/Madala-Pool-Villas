@@ -1,0 +1,522 @@
+<!DOCTYPE html>
+<html lang="vi" xml:lang="vi" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>Mandala Pool Villas</title>
+	<meta charset="utf-8">
+
+	<!-- Custom CSs -->
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+  	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+
+	<style type="text/css">
+	/*@font-face {
+		font-family: glyphicons-halflings-regular;
+		src: url(Archive/fonts/glyphicons-halflings-regular.woff);
+	}*/
+
+	@font-face {
+		font-family: 'glyphicons-halflings-regular';
+		src: url('/fonts/glyphicons-halflings-regular.eot'),
+			url('/fonts/glyphicons-halflings-regular.woff') format('woff'),
+			url('/fonts/glyphicons-halflings-regular.ttf') format('truetype'), 
+			url('/fonts/glyphicons-halflings-regular.svg') format('svg');
+		font-weight: normal;
+		font-style: normal;
+	}
+
+
+     	.navbar-nav>li>a { 
+     		color: #fff!important;
+     	}
+	
+	ul.nav {
+			list-style-type: none;
+			margin: 0;
+			padding: 0;
+			overflow: hidden;
+			background-color: #66171b;
+
+		}
+
+	nav {
+			background-color: #66171b;
+			color: white;
+		}
+
+	ul.nav li {
+		float: left;	
+		color: white;
+		text-transform: uppercase;
+	}
+	li a{
+		display: block;
+		color: white;
+		text-align: left;
+		padding: 8px 12px;
+		text-decoration: none;
+	}
+	li a:hover {
+		background-color: #111;
+		color: white;
+	}
+	.active{
+		background-color: white;
+		color:#66171b;
+	}
+	.rounded-icon{
+		border: 3px solid #fff;
+		display: inline-block;
+		border-radius: 26px;
+		width: 26px;
+		height: 26px;
+		color: white;
+	}
+	.formFooter{
+		background-color: black;
+	}
+	footer {
+		color:white;
+		background-color: black;
+	
+	}
+	h3 {
+		color: white;
+		font-family: glyphicons-halflings-regular;
+		font-style: bold;
+		text-transform: uppercase;
+		}
+	.btnConfirm {
+		background-color: #f3ca4a;
+		color: black;
+		display: inline-block;
+		border-radius: 20px;
+		margin: 12px 4px;
+		padding: 8px 40px; 
+	}
+	.contact{
+		color: #f3ca4a;
+		font-style: bold;
+	}
+	.h4Footer{
+		color: #f3ca4a;
+		font-family: glyphicons-halflings-regular;
+	}
+	.img{
+		display: inline;
+
+	}
+	input[type=text]{
+		width: 57%;
+		padding: 10px 30px;
+		margin: 8px 0;
+		box-sizing: border-box;
+		border:none;
+		border-bottom: 2px solid #7d7d7d; 
+		background-color: transparent;
+	}
+	}
+	input[type=people]{
+		width: 100%;
+		padding: 10px 20px;
+		margin: 12px 0;
+		box-sizing: border-box;
+		border:none;
+		border-bottom: 2px solid #7d7d7d; 
+		background-color: transparent;
+		/*background-image: url('Archive/img/users.png');
+		background-position: 10px 10px; */
+
+	}
+	h2 {
+		text-transform: uppercase;
+	}
+	h4 {
+		text-transform: uppercase;
+	}
+	h3{
+		text-transform: uppercase;
+
+	}
+	h5{
+		font-family: glyphicons-halflings-regular;
+
+	}
+	.fontBody {
+		color: #66171b;
+		text-transform: uppercase;
+		font-family: glyphicons-halflings-regular;
+		text-align: center;
+		margin-top: 30px;
+		margin-bottom: 30px;
+
+	}
+
+	#div1{
+		z-index: 3;
+		position: relative;
+		    width: 180px;
+		    height: 150px;
+		    margin: 0px 0px;
+	}
+	#div2{
+		z-index: 2;
+		position: relative;
+		    top: 50px;
+		    margin: -71px 50px 0px 88px;
+		    width: 180px;
+		    height: 150px;
+	}
+	#div3{	
+		    z-index: 1;
+		    position: absolute;
+		    width: 180px;
+		    height: 150px;
+		    margin: 22px 0px 0px 25px;
+	}
+	
+	body{
+		position: relative;
+	}
+	#property{
+	}
+	#villas
+	#service
+	#priceList
+	#contact
+
+	div.thumbnail{
+		border-radius: 13px;
+		boder: 2px solid #ddd;
+		padding: 5px;
+		box-shadow: 8px;
+		margin: 10px 60px;
+		padding: 10px;
+	}
+	.textBox{
+		background-color: transparent;
+		width: 300px;
+		padding: 30px 500px;
+		border: 2px solid #66171b;
+		margin:30px 53px;
+	}
+	.ulBox1{
+		background-color: transparent;		
+		border: 2px solid #66171b;
+		margin:30px 53px;
+	}
+	.ulBox2 {
+		position: relative;
+		border: 2px solid #66171b;
+		padding: 20px;
+		margin:30px 53px;
+
+	}
+	.logoVilla2{
+		max-height:138px;max-width:250px;height:100%;width: 100%; 
+	}
+	.logoVilla1{
+		max-height:138px; max-width:250px; height:100%; width: 100%; position: relative; margin-top:110px; margin-bottom:20px; top:50%;
+	}
+	</style>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+
+		<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+ 		<!-- jQuery -->
+ 		<script src="js/jquery.js"></script>
+
+ 		<!-- Bootstrap Core JavaScript -->
+ 		<script src="js/bootstrap.min.js"></script>
+
+ 		<!-- Scrolling Nav JavaScript -->
+ 		<script src="js/jquery.easing.min.js"></script>
+ 		<script src="js/scrolling-nav.js"></script>
+
+ 		<!-- Custom JS -->
+ 		<script src="js/custom.js"></script>
+
+ 		 <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" />
+ 	
+
+</head>
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container-fluid" style="background-color:#66171b;">
+    <div class="navbar-header" style="background-color:#66171b">
+    	<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false">
+    		<span class="sr-only">Toggle navigation</span>
+    		<span class="icon-bar"></span>
+    		<span class="icon-bar"></span>
+    		<span class="icon-bar"></span>
+    	</button>
+      <a class="navbar-brand" href="#" style="margins:right;font-size:30px;color:white; padding: 10px 40px;" ><span class="glyphicon glyphicon-home"></span></a>
+    </div>
+    <div class="pull-right collapse navbar-collapse" id="navbar">
+
+    <ul class="nav navbar-nav fixed-top">
+          <li><a href="#property">Property</a></li>
+          <li><a href="#villas">The Villas</a></li>
+          <li><a href="#service">Our Services</a></li>
+          <li><a href="#priceList">Price list</a></li>
+          <li><a href="#contact">Contact/Booking</a></li>
+    </ul>
+    <ul class="nav list list-unstyled">
+          	<li><a href="#"><img src="img/vietnam.png" id="logo1" alt="vietnamFlag"/></a></li>
+           <li><a href="#"><img src="img/france.png" id="logo2" alt="franceFlag" /></a></li>   
+    </ul>
+  </div>
+  </div>
+</nav>
+
+
+	<div class="container col-xs-12 col-md-12" style="background-color:#fff !important;">
+		<img src="img/logo-full.png" alt="logo" class="logoVilla1 center-block">
+	</div>
+
+<img src="img/landing.png" alt="landing" style="height:100%; width:100%; max-height:647px; max-width:1600px;  ">
+<div class="container">
+	<h4 class="fontBody">In calm and serenity, quiet and accessible between beach and nature in phu <br/> quoc.</h4>
+	
+	<h5 style="text-align: center">wheather you are looking for the honey moon or a romantic one-bedroom escapse or a </br> spacious eight-bedroom estate, Mandila pool villas has a villa for you</h5>
+</div>
+<div style="background-color:#eeeeee" id="property">
+<br/>
+<br/>
+<br/>
+	<div class="container">
+		<div class="col-xs-12 col-md-5 col-md-offset-1">
+			<img src="img/logo-full.png" alt="logo" class="center-block logoVilla2">
+			<br/>
+			<br/>
+			<h5>Mandala Pool Villas is a complex of 3 units private pool vllas that sits on a prperty of 2800 square meter</h5>
+			<h5>Two villas of 1 luxury bedroom for 2 peoples on the area of ...</h5>
+			<h5>One big villa of 4 luxury bedrooms compose 2 master rooms and one family rooms for 8 peoples on the area of ...</h5>
+			<h5>Each villas has it own private garden, outdoor living room, fully kitchenette, private pool and Jacuzzi. Small parking area in front of reception desk</h5>
+		</div>
+
+		<div class="col-xs-12 col-md-6">
+			<h3 style="color:#66171b">Property</h3>
+			<br/>
+
+			<div id="div1">
+			<img src="img/villa-1.jpg" style="max-height:150px; max-width:180px; height:100%; width: 100%">
+			</div>
+			
+			<div id="div2">
+				<img src="img/villa-2.jpg" style="max-height:150px; max-width:180px; height:100%; width: 100%; margin-left:70px"> <br/>
+			</div>
+
+			<div id="div3">
+				<img src="img/villa-3.jpg" style="max-height:150px; max-width:180px; height:100%; width: 100%"> <br/>
+			</div>
+
+			<br/>
+			<br/>
+			<br/>
+			<br/>
+			<br/>
+			<br/>
+			<br/>
+			<br/>
+		</div>
+
+		<div class="container col-md-12 col-xs-12">
+			<br/>
+			<br/>
+			<h5 style="color:#bdbbbc; text-align:center; margin-top:30px;">Cong ty TNHH SA LON- MST 1701310428 - <span lang="vi">Tổ 4, ấp Gành gió, Xã Cửa Dương Giang, Huyện Phú Quốc, tỉnh Kiên Giang</span></h5>
+			<br/>
+			<br/>
+			<br/>
+			<br/>
+		</div>
+	</div>
+</div>
+
+<div class="container" id="villas">
+	<div class="col-md-4 col-xs-4">
+		<img src="img/logo-full.png" alt="logo" style="max-height:138px;max-width:250px;height:100%;width: 100%;margin-left: 85px;margin-top: 40px;margin-bottom: 20px;">
+	</div>
+	<div class="col-md-8 col-xs-8">
+		<h3 style="color:#66171b;margin-top: 50px; font-style: bold; padding-left: 70px;">The Villas</h3>
+	</div>
+
+	<div class="row">
+		<div class="col-xs-12 col-md-12">
+			<div class="thumbnail" 
+			style="border-radius: 13px;
+			boder: 2px solid #ddd;
+			padding: 5px;
+			box-shadow: 20px;
+			margin: 10px 60px;
+			padding: 10px;
+			box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">
+				<img src="img/villa-1.jpg" style="max-height:150px; max-width:180px; height:100%; width: 100%; float:left; margin-right:30px; margin-top:6px; margin-left:15px">
+				<div class="caption">
+					<h4 style="color:#66171b;">Drangon'Siam</h4>
+					<p>Charming &amp; cozy private villa and swimming pool, bedroom with bathroom accessible by loggia, outdoor living room fusion style of modern and traditional with wooden carver in a quiet tropical garden.</p>
+					<p>This villa with private access is ideal place to honeymoon, and romantic escape.</p>
+					<p><div class="fa fa-user fa-1x text-right"></div> 2</p>
+				</div>
+			</div>
+		</div>
+
+		<div class="col-xs-12 col-md-12">
+			<div class="thumbnail" 
+			style="border-radius: 13px;
+			boder: 2px solid #ddd;
+			padding: 5px;
+			box-shadow: 20px;
+			margin: 10px 60px;
+			padding: 10px;
+			padding-bottom:25px;
+			box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">
+				<img src="img/villa-2.jpg" style="max-height:150px; max-width:180px; height:100%; width: 100%; float:left; margin-right:30px; margin-top:6px; margin-left:15px">
+				<div class="caption">
+					<h4 style="color:#66171b;">Annam lodge</h4>
+					<p>Nice private villa with pool bedroom and ensuite bathroom, outdoor living room with kitchen hearth on a zen spirit garden.</p>
+					<p>This villa with private access is ideal place to honeymoon, and romantic escape.</p>
+					<p><div class="fa fa-user fa-1x text-right"></div> 2</p>
+				</div>
+			</div>
+		</div>
+
+		<div class="col-xs-12 col-md-12">
+			<div class="thumbnail" 
+			style="border-radius: 13px;
+			boder: 2px solid #ddd;
+			padding: 5px;
+			box-shadow: 20px;
+			margin: 10px 60px;
+			padding: 10px;
+			padding-bottom:25px;
+			box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">
+				<img src="img/villa-3.jpg" style="max-height:150px; max-width:180px; height:100%; width: 100%; float:left; margin-right:30px; margin-top:6px; margin-left:15px">
+				<div class="caption">
+					<h4 style="color:#66171b;">Mandala</h4>
+					<p>Perfect villa for group of 8 peoples with private access, component by 4 pavilions, two master rooms facing each other and parallel to the pool as well as a family room overlooking the pool, seperate into two large rooms to accommodate parent and children or couple of friends</p>
+					<p><div class="fa fa-user fa-1x text-right"></div> 8</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="ulBox2">
+			<p>All villas inclusive of the following benefits:</p>
+			<ul>
+				<li>Welcome drink and chilled towels served upon arrival</li>
+				<li>Fresh fruits and flower arrangement upon arrival</li>
+				<li>Daily afternoon tea service</li>
+				<li>Daily breakfast, all components at disposal in kitchen and morning delivery of patries and fruit salad</li>
+				<li>Daily maid service from 8:30 to 17:00</li>
+				<li>Wifi internet access is available throughout the property</li>
+			</ul>
+	</div>
+	<h5 style="color:#bdbbbc; text-align:center; margin-top:30px;">Cong ty TNHH SA LON- MST 1701310428 - <span lang="vi">Tổ 4, ấp Gành gió, Xã Cửa Dương Giang, Huyện Phú Quốc, tỉnh Kiên Giang</span></h5>
+	<br/>
+</div>
+
+
+
+
+
+
+
+
+
+<footer>
+		<div class="row">
+		<div class="col-xs-6 col-xs-offset-1 col-md-7 col-md-offset-1  formFooter" style="margin-top: 60px">
+			
+			<h3><label style="margin-bottom: 25px;">booking</label></h3>
+			<div class="form-group">
+				<input type="text" class="form-control" id="fullName" placeholder="Full Name*" size="15">
+			</div>
+			<div class="form-group">
+				<input type="text" class="form-control" id="phone" placeholder="Phone Number*"/>
+			</div>
+			<div class="form-group">
+				<input type="text" class="form-control" id="email1" placeholder="Your Emai*"/>
+			</div>
+			<div class="form-inline">
+			<div class="form-group">
+				<input type="text" class="form-control" id="people" placeholder="Amount of People*" />
+				<div class="fa fa-users fa-1x" > &nbsp; </div>
+			</div>
+			<div class="form-group">
+				<input type="text" class="form-control" id="date" placeholder="Booking Date*" /> <div class="fa fa-calendar fa-1x" ></div>
+
+			</div>
+			</div>
+			<div class="form-inline">
+			<div class="form-group">
+				<button type="submit" class="btnConfirm" style="margin-right:50px;  margin-top: 30px; padding: 8px 50px">CONFIRM BOOKING</button>
+			</div>
+			<div class="form-group">
+				<img src="img/visa.png" alt="visa" />
+				<img src="img/pp.ico" alt="paypal"/>
+			</div>
+			</div>
+			<br/>
+			<br/>
+		<div class="row" style="margin-top:40px">
+				<div class="col-xs-6 col-md-6">
+					<h3 class="contact">contact</h3>
+					<br/>
+					<h4 class="h4Footer">call us direct</h4>
+					<h5>Tel:(+84) 0936 071 375</h5>
+					<br/>
+					<h4 class="h4Footer"> ADDRESS</h4>
+					<h5><span lang="vi">Tổ 4, ấp Gành gió, Xã Cửa Dương Giang, </span></h5> 
+					<h5>Huyện Phú Quốc, tỉnh Kiên Giang </h5>
+					<br/>
+					<h4 class="h4Footer">Email</h4>
+					<h5><a href="mailto:mandalavillas@gmail.com" style="color:#fff">mandalavillas@gmail.com</a></h5>
+
+				</div>
+				
+
+				<div class="col-xs-5 col-md-5" style="margin:middle; margin-top:40px">
+					<a href="#"><img src="img/logo-full-white.png" alt="logo-Mandala" style= "max-width:2250px; max-height:1207px; width:100%;height:100%;"></a>
+				<br/>
+				<br/>
+
+				<div class="form-inline" style="margin-left: 50px; margin-top: 10px;">
+				<div class="form-group" style="margin: auto;">
+					<div class="img" >
+					<a href="https://www.facebook.com/VillaMandala/?fref=ts" target="_blank">
+					<img src="img/Facebook_icon.png" alt="facebook" style="max-width:32px; max-height:32px; width:100%;height:100%; margin-right:15px" > </a> &nbsp; &nbsp; 
+					<a href="https://www.youtube.com/user/VillaMandala" target="_blank">
+					<img src="img/youtube1.png" alt="youtube" style="max-width:32px; max-height:32px; width:100%;height:100%; margin-right:15px"> </a> &nbsp;  &nbsp; 
+					<a href="tel:+84936071375">
+					<img src="img/phone1.png" alt="phone" style="max-width:32px; max-height:32px; width:100%;height:100%; margin-right:15px"> </a> &nbsp; &nbsp; 
+					<a href="http://www.mandalaspaandresortvillas.com" target="_blank">
+					<img src="img/World-America.png" alt="facebook" style="max-width:32px; max-height:32px; width:100%;height:100%"></a>
+					</div>
+				</div>
+				</div>
+				</div>
+			</div>
+		</div>
+		<div class="col-xs-12 col-md-4">
+		<script src='https://maps.googleapis.com/maps/api/js?v=3.exp'></script>
+		<div id='gmap_canvas' style='position:relative; height:100%;width:100%;min-height: 600px; min-width: 400px;'></div>
+
+
+
+		<small><a href="http://embedgooglemaps.com">									embed google maps							</a></small></div><div><small><a href="https:/disclaimergenerator.net">disclaimer example</a></small></div><style>#gmap_canvas img{max-width:none!important;background:none!important}</style></div><script type='text/javascript'>function init_map(){var myOptions = {zoom:10,center:new google.maps.LatLng(10.8015984,106.65735429999995),mapTypeId: google.maps.MapTypeId.ROADMAP};map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(10.8015984,106.65735429999995)});infowindow = new google.maps.InfoWindow({content:'<strong>NIFTIT office</strong><br>132 Cong Hoa, Tan Binh, Ho Chi Minh, VIetnam<br>'});google.maps.event.addListener(marker, 'click', function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);</script>
+		</div>
+	
+	</div>				
+	<h4 class="h4Footer text-center" style="padding: 48px 124px;padding-bottom: 160px;"> Cong ty tnhh sa lon - mst 1701310428 - <span lang="vi">Tổ 4, ấp Gành gió, Xã Cửa Dương Giang, Huyện Phú Quốc, tỉnh Kiên Giang</span>
+	</h4>
+	</footer>
+
+
+</body>
+
+
+
+
+
+
+</html>
